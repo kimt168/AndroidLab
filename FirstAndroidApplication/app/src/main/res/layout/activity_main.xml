@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edtA" />
 
     <EditText
-        android:id="@+id/edtKQ"
+        android:id="@+id/edtSum"
         android:layout_width="276dp"
         android:layout_height="66dp"
         android:layout_marginStart="82dp"
@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edtB" />
 
     <Button
-        android:id="@+id/btnTong"
+        android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="145dp"
@@ -58,6 +58,6 @@
         android:text="Tổng"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtKQ" />
+        app:layout_constraintTop_toBottomOf="@+id/edtSum" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
